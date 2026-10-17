@@ -12,8 +12,8 @@ Windows x64 多模型桌面工作台，最新公開版本 **1.9.103**。
 ## 安裝與原始碼
 
 1. 關閉舊開源版，至 Release 的 Assets 下載 `.exe`。
-2. 下載對應 `.sha256`，用 `Get-FileHash -Algorithm SHA256` 核對。
-3. 完整應用程式原始碼請下載 Assets 的 **`wangpin-開源原始碼-1.9.103.zip`**，包含 JavaScript、Rust、建置工具及測試。建置步驟與第三方授權見 ZIP 內 README、THIRD_PARTY_NOTICES.md。
+2. 下載 `SHA256SUMS.txt`，用 `Get-FileHash -Algorithm SHA256` 核對。
+3. 完整應用程式原始碼請下載 Assets 的 **`wangpin-source-1.9.103.zip`**，包含 JavaScript、Rust、建置工具及測試。建置步驟與第三方授權見 ZIP 內 README、THIRD_PARTY_NOTICES.md。
 
 **目前儲存庫主要提供版本說明與下載；GitHub 自動產生的 Source code ZIP 只含此儲存庫內容，不是完整應用程式。完整原始碼以附加的 ZIP 為準。**
 

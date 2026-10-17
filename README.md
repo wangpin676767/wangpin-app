@@ -7,7 +7,7 @@ Windows x64 多模型桌面工作台，最新公開版本 **1.9.103**。
 
 ## 1.9.103
 
- 保留 wangpinplan、skill／Markdown／MCP、System Prompt、網頁模型與帳號管理、Rust 加速。使用獨立安裝及資料目錄，可與自用版並存。模型服務需自行登入並使用自己的額度。
+ 保留 wangpinplan、skill／Markdown／MCP、System Prompt、網頁模型與帳號管理、Rust 。使用獨立安裝及資料目錄，可與自用版並存。模型服務需自行登入並使用自己的額度。
 
 ## 安裝與原始碼
 

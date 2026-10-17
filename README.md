@@ -1,29 +1,32 @@
-# wangpin app
+# 王品工作台｜原始碼公開版
 
+Windows x64 多模型桌面工作台，最新公開版本 **1.9.103**。
 
-Windows 安裝檔與版本下載。
+- [下載安裝檔、完整原始碼 ZIP 與 SHA256](https://github.com/wangpin676767/wangpin-app/releases/tag/v1.9.103)
+- [官方下載頁](https://www.wangpin67.com/p/wangpin-app.html)
 
+## 1.9.103
 
-- [下載最新版本](https://github.com/wangpin676767/wangpin-app/releases/latest)
-- [官方網站](https://www.wangpin67.com/)
+移除「王品agent腳本」編輯器、子視窗、流程服務與引擎；保留 wangpinplan、skill／Markdown／MCP、System Prompt、網頁模型與帳號管理、Rust 加速。使用獨立安裝及資料目錄，可與自用版並存。模型服務需自行登入並使用自己的額度。
 
+## 安裝與原始碼
 
-## 安裝
+1. 關閉舊開源版，至 Release 的 Assets 下載 `.exe`。
+2. 下載對應 `.sha256`，用 `Get-FileHash -Algorithm SHA256` 核對。
+3. 完整應用程式原始碼請下載 Assets 的 **`wangpin-開源原始碼-1.9.103.zip`**，包含 JavaScript、Rust、建置工具及測試。建置步驟與第三方授權見 ZIP 內 README、THIRD_PARTY_NOTICES.md。
 
+**目前儲存庫主要提供版本說明與下載；GitHub 自動產生的 Source code ZIP 只含此儲存庫內容，不是完整應用程式。完整原始碼以附加的 ZIP 為準。**
 
-1. 開啟 Releases，下載 Assets 下的 `.exe` 安裝檔。
-2. 可下載對應 `.sha256` 檔案，用 PowerShell `Get-FileHash -Algorithm SHA256` 核對。
-3. 執行安裝檔，依安裝畫面操作。
+安裝檔 SHA256：`62f572c2c4f95e33cc4694c85a7d275182c7ff5983981470db50e4c293c099ae`。安裝檔未簽章。
 
+## 驗證
 
-## 版本與原始碼
+80 項相關測試及 15 項包內操作驗證通過；未做真實模型推論或壓力測試。自用版原始碼未更動。
 
+## 授權狀態
 
-1.9.75 安裝檔由作者以「開源版本」名稱提供。目前此儲存庫提供安裝檔下載；尚未附上對應原始碼及開源授權，不代表已完成原始碼開源。
-
+本次已公開完整原始碼，但作者尚未指定本專案授權條款；不要假設已取得自由修改及再散布的開源授權。第三方元件依各自授權。
 
 ## 問題回報
 
-
-請使用本儲存庫 Issues，描述版本、Windows 版本與重現步驟。請勿公開 API 金鑰、登入資料或其他私人資訊。
-
+請使用 Issues，附版本、Windows 版本及重現步驟；不要公開 API 金鑰、Cookie、登入資料或私人對話。
